@@ -53,7 +53,7 @@ const TARGET_SELECTORS = [
           radial-gradient(circle at 15% 10%, rgba(255, 220, 90, 0.18), transparent 24%),
           radial-gradient(circle at 85% 18%, rgba(255, 230, 120, 0.10), transparent 22%),
           linear-gradient(145deg, #0b0d12 0%, #11141b 28%, #08090c 100%);
-        border: 1px solid rgba(255, 214, 51, 0.55);
+        border: 1px solid rgba(7,0,110);
         box-shadow:
           0 0 0 1px rgba(255,255,255,.03) inset,
           0 0 0 2px rgba(255, 214, 51, 0.06),
@@ -375,7 +375,7 @@ const TARGET_SELECTORS = [
         border-radius: 50%;
         background: #ffd43a;
         box-shadow:
-          0 0 10px rgba(255, 214, 51, 0.55),
+          0 0 10px rgba(7,0,110),
           0 0 18px rgba(255, 214, 51, 0.16);
       }
 
