@@ -3,6 +3,7 @@
   MONEYSITE
 ==========================
 */
+<style>
 .kotaksaya {
     border: 1px solid #ffffff;
     background-color:#020164;
@@ -612,5 +613,6 @@ select {
 .search-wrap {
   margin-top: 4px;
   padding-top: 4px;
-  border-top: 1px solid rgba(255, 208, 0, 0.5);
+  border-top: 1px solid rgba(7,0,110);
 }
+</style>
