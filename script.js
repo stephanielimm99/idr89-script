@@ -210,7 +210,7 @@ const TARGET_SELECTORS = [
 
       .server-custom-trigger:hover {
         transform: translateY(-1px);
-        border-color: rgba(255, 224, 102, 0.72);
+        border-color: rgba(7,0,110);
         box-shadow:
           0 1px 0 rgba(255,255,255,.08) inset,
           0 -10px 18px rgba(0,0,0,.24) inset,
