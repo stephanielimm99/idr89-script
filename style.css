@@ -492,7 +492,7 @@ body {
 .main-link {
   display: block;
   width: 100%;
-  background: linear-gradient(180deg, #fff200, #d8a400);
+  background: linear-gradient(180deg, #07006e, #d8a400);
   color: #111;
   font-weight: 700;
   text-align: center;
@@ -535,7 +535,7 @@ select {
 }
 
 .copy-btn {
-  background: linear-gradient(180deg, #fff200, #d8a400);
+  background: linear-gradient(180deg, #07006e, #d8a400);
   color: #111;
   border: none;
   padding: 5px 10px;
@@ -598,7 +598,7 @@ select {
 
 .search-btn {
   display: inline-block;
-  background: linear-gradient(180deg, #fff200, #d8a400);
+  background: linear-gradient(180deg, #07006e, #d8a400);
   color: #111;
   font-size: 9px;
   font-weight: 700;
