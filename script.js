@@ -185,10 +185,10 @@ const TARGET_SELECTORS = [
         min-height: 58px;
         padding: 0 36px 0 12px;
         border-radius: 14px;
-        border: 1px solid rgba(255, 214, 51, 0.48);
+        border: 1px solid rgba(255, 255, 255, 0.48);
         cursor: pointer;
         transition: .28s ease;
-        color: #ffe082;
+        color: #fff;
         font-size: 11px;
         font-weight: 900;
         letter-spacing: .9px;
@@ -219,7 +219,7 @@ const TARGET_SELECTORS = [
       }
 
       .server-custom-select.open .server-custom-trigger {
-        border-color: #ffe082;
+        border-color: #fff;
         box-shadow:
           0 1px 0 rgba(255,255,255,.08) inset,
           0 -10px 18px rgba(0,0,0,.22) inset,
