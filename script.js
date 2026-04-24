@@ -268,30 +268,30 @@ style.textContent = `
         transform: translateY(-50%) rotate(180deg);
       }
 
-      .server-custom-menu {
-        position: absolute;
-        top: calc(100% + 10px);
-        left: 0;
-        right: 0;
-        padding: 8px;
-        border-radius: 16px;
-        background:
-          linear-gradient(180deg, rgba(255,255,255,.05), rgba(255,255,255,.01)),
-          linear-gradient(145deg, #14171d 0%, #0b0d12 100%);
-        border: 1px solid rgba(255, 214, 51, 0.22);
-        box-shadow:
-          0 16px 34px rgba(0,0,0,.42),
-          0 0 20px rgba(255, 214, 51, 0.08),
-          inset 0 1px 0 rgba(255,255,255,.04);
-        backdrop-filter: blur(10px);
-        -webkit-backdrop-filter: blur(10px);
-        opacity: 0;
-        visibility: hidden;
-        transform: translateY(8px);
-        transition: .22s ease;
-        max-height: 260px;
-        overflow-y: auto;
-      }
+.server-custom-menu {
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 0;
+  right: 0;
+  padding: 8px;
+  border-radius: 16px;
+  background:
+    linear-gradient(180deg, rgba(255,255,255,.06), rgba(255,255,255,.015)),
+    linear-gradient(145deg, #13236e 0%, #0a1450 48%, #050b2b 100%);
+  border: 1px solid rgba(90, 180, 255, 0.28);
+  box-shadow:
+    0 16px 34px rgba(0,0,0,.42),
+    0 0 20px rgba(53, 162, 255, 0.14),
+    inset 0 1px 0 rgba(255,255,255,.05);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(8px);
+  transition: .22s ease;
+  max-height: 260px;
+  overflow-y: auto;
+}
 
       .server-custom-select.open .server-custom-menu {
         opacity: 1;
