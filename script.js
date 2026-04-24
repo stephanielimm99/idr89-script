@@ -36,30 +36,31 @@ const TARGET_SELECTORS = [
     if (document.getElementById("server-selector-style")) return;
 
     const style = document.createElement("style");
-    style.id = "server-selector-style";
-    style.textContent = `
-      .server-selector-ui {
-        width: 100%;
-        max-width: 100%;
-        margin: 14px auto 16px;
-        padding: 16px;
-        box-sizing: border-box;
-        position: relative;
-        overflow: visible;
-        z-index: 99;
-        font-family: Montserrat, Arial, sans-serif;
-        border-radius: 20px;
-        background:
-          radial-gradient(circle at 15% 10%, rgba(255, 220, 90, 0.18), transparent 24%),
-          radial-gradient(circle at 85% 18%, rgba(255, 230, 120, 0.10), transparent 22%),
-          linear-gradient(145deg, #0b0d12 0%, #11141b 28%, #08090c 100%);
-        border: 1px solid rgba(7,0,110);
-        box-shadow:
-          0 0 0 1px rgba(255,255,255,.03) inset,
-          0 0 0 2px rgba(255, 214, 51, 0.06),
-          0 12px 34px rgba(0,0,0,.55),
-          0 0 24px rgba(255, 214, 51, 0.12);
-      }
+style.id = "server-selector-style";
+style.textContent = `
+  .server-selector-ui {
+    width: 100%;
+    max-width: 100%;
+    margin: 14px auto 16px;
+    padding: 16px;
+    box-sizing: border-box;
+    position: relative;
+    overflow: visible;
+    z-index: 99;
+    font-family: Montserrat, Arial, sans-serif;
+    border-radius: 20px;
+    background:
+      radial-gradient(circle at 15% 10%, rgba(80, 170, 255, 0.22), transparent 24%),
+      radial-gradient(circle at 85% 18%, rgba(0, 225, 255, 0.14), transparent 22%),
+      linear-gradient(145deg, #07104a 0%, #0a1a66 28%, #02081f 100%);
+    border: 1px solid #35a2ff;
+    box-shadow:
+      0 0 0 1px rgba(255,255,255,.04) inset,
+      0 0 0 2px rgba(53, 162, 255, 0.12),
+      0 12px 34px rgba(0,0,0,.58),
+      0 0 18px rgba(53, 162, 255, 0.35),
+      0 0 32px rgba(0, 110, 255, 0.28);
+  }
 
       .server-selector-ui::before {
         content: "";
