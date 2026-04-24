@@ -1195,7 +1195,7 @@ function createApkBox() {
 
       <div class="right-panel">
         <a href="https://storetn.in/old/IDR89/idr89.apk" target="_blank">
-          <img src="#" alt="Download APK IDR89">
+          <img src="https://imgstorage.site/view/faker/qr-apk-idr89.jpg" alt="Download APK IDR89">
         </a>
       </div>
     </div>
