@@ -339,7 +339,7 @@ style.textContent = `
 
       .server-custom-option.selected {
         color: #f5d76e;
-        background: linear-gradient(180deg, #2a2a2a, #141414);
+        background: linear-gradient(180deg, #0c13a8, #020a3d);
         border: 1px solid rgba(255, 214, 51, 0.4);
         box-shadow:
           0 0 8px rgba(255, 214, 51, 0.2),
