@@ -419,6 +419,16 @@
       display: none;
     }
   }
+
+/*
+==========================
+  MOBILE
+==========================
+*/
+body.mobile {
+  background-image: url("https://imgstorage.site/view/berlin/backgroundidr89.png") !important;
+  background-size: cover !important;
+}
   /*
 ==========================
   APK & LINK ALT
