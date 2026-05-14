@@ -352,6 +352,14 @@ body.mobile .container.container-box.info-view {
 #r-side-bar .side-bar-content.container {
 background: linear-gradient(1turn, #03112f, #1e649e 50.13%, #082b73) !important;
 }
+.menu-bottom .footericon-single a.footer-funds i {
+background: linear-gradient(1turn, #03112f, #3aa7ff 50.13%, #082b73) !important;
+border: 1px solid #ffd700 !important;
+}
+.menu-bottom .horizontal-hover {
+  background: linear-gradient(1turn, #03112f, #3aa7ff 50.13%, #082b73) !important;
+  border: 1px solid #ffd700 !important;
+}
 /*
 ==========================
   HAMBURG
