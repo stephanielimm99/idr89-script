@@ -408,15 +408,14 @@
   width: 100%;
   max-width: 100%;
   margin: auto;
-  background: linear-gradient(180deg, #0c13a8 0%, #04106d 50%, #010631 100%);
-  border: 2px solid #35a2ff;
+  background: linear-gradient(180deg, #06185f 0%, #031044 48%, #01031a 100%);
+  border: 2px solid #ffd84a;
   border-radius: 14px;
   padding: 8px;
   box-shadow:
-    0 0 10px rgba(53, 162, 255, 0.75),
-    0 0 22px rgba(0, 136, 255, 0.55),
-    0 0 38px rgba(0, 89, 255, 0.35),
-    inset 0 0 12px rgba(160, 220, 255, 0.16);
+    0 0 10px rgba(31, 167, 255, 0.75),
+    0 0 24px rgba(0, 86, 255, 0.45),
+    inset 0 0 12px rgba(255, 224, 60, 0.14);
   display: flex;
   gap: 8px;
   align-items: stretch;
