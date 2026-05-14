@@ -438,7 +438,12 @@ body.mobile .deposit-withdraw-div.black-bg {
 body.mobile .jp-provider-div {
  background-color: rgba(0, 0, 0, 0.336) !important; 
 }
-
+body.mobile .info-section.u-section-box--bg,
+body.mobile .row.black-bg,
+body.mobile .deposit-withdraw-section,
+body.mobile .footer-content.clearfix {
+ background-color: rgba(0, 0, 0, 0) !important; 
+}
   /*
 ==========================
   APK & LINK ALT
