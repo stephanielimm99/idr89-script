@@ -751,7 +751,7 @@ background: linear-gradient(1turn, #03112f, #1e649e 50.13%, #082b73) !important;
   width: 100%;
   background: linear-gradient(180deg, #07006e, #07006e);
   color: #ffffff;
-  border: #ffd84a;
+  border: 1px solid #ffd700 !important;
   font-weight: 700;
   text-align: center;
   padding: 5px 4px;
@@ -795,7 +795,7 @@ select {
 .copy-btn {
   background: linear-gradient(180deg, #07006e, #07006e);
   color: #ffffff;
-  border: #ffd84a;
+  border: 1px solid #ffd700 !important;
   padding: 5px 10px;
   font-size: 9px;
   font-weight: 700;
@@ -858,7 +858,7 @@ select {
   display: inline-block;
   background: linear-gradient(180deg, #07006e, #07006e);
   color: #ffffff;
-  border: #ffd84a;
+  border: 1px solid #ffd700 !important;
   font-size: 9px;
   font-weight: 700;
   width: 100%;
