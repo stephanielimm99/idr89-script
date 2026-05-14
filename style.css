@@ -1,10 +1,11 @@
-/*
+  @import url("https://fonts.googleapis.com/css?family=Raleway:900&display=swap");
+
+  /*
 ==========================
-  MONEYSITE
+  STYLE TAMPILAN MS
 ==========================
 */
-<style>
-.menu-bottom .footericon-single a {
+  .menu-bottom .footericon-single a {
     font-weight: bold !important;
   }
   .scroll-wrapper[_home] .btn-box div {
@@ -14,17 +15,17 @@
   .btn-secondary {
     font-weight: bold !important;
     border-radius: 5px !important;
-    background: linear-gradient(180deg, #132a8a 0%, #07145a 55%, #020519 100%) !important;
-    border: 1px solid #fff200 !important;
-    color: #fff200 !important;
+    background: linear-gradient(180deg, #3a3a3a, #1a1a1a) !important;
+    border-color: #d4af37 !important;
+    color: #ffd700 !important;
   }
   .btn-accent,
   .btn-primary {
     font-weight: bold !important;
     border-radius: 5px !important;
-    background: linear-gradient(180deg, #ffe600, #FFBF00) !important;
+    background: linear-gradient(180deg, #fff200, #ffb300) !important;
     border-color: #ffffff !important;
-    color: #132a8a !important;
+    color: #000000 !important;
     position: relative;
     overflow: hidden;
   }
@@ -72,6 +73,14 @@
   .bottom-to-top {
     font-weight: bold;
   }
+  .hot-games .game-item .game-title {
+    background-color: #5a3f00 !important;
+    border-radius: 10px;
+  }
+  .hot-games .game-item {
+    background-color: #3a2900 !important;
+    border-radius: 10px;
+  }
   .register .promo-box {
     border-radius: 10px;
   }
@@ -96,15 +105,22 @@
   .main.nav-wrapper .nav-item-content .auto-box > a {
     font-weight: bold !important;
   }
+  .top-bar .inner-header {
+    background: linear-gradient(#543b01, #ecde8d) !important;
+  }
+  .top-bar a,
+  .top-bar button {
+    color: #543e10 !important;
+  }
   .row {
     padding-top: 5px !important;
   }
   .register .promo-box {
-    background: linear-gradient(180deg, #132a8a, #020519) !important;
+    background: linear-gradient(180deg, #3a3a3a, #1a1a1a) !important;
     border: 1px solid #ffd700 !important;
   }
   .register-form .submit-box {
-    background: linear-gradient(180deg, #132a8a 0%, #07145a 55%, #020519 100%) !important;
+    background: linear-gradient(180deg, #3a3a3a, #1a1a1a) !important;
     color: #ffd700 !important;
     border: 1px solid #ffd700 !important;
     border-radius: 10px !important;
@@ -119,190 +135,249 @@
   .register-form .submit-box a {
     color: #fd2c2c !important;
   }
-  .floats-right .fc .fc-left,
-  .floats-left .fc .fc-right {
-    background: linear-gradient(180deg, #132a8a 0%, #07145a 55%, #020519 100%) !important;
+  .acc_safety_info.box-wrapper,
+  .box-wrapper.deposit-notice-wrapper {
+    background: linear-gradient(180deg, #3a3a3a, #1a1a1a) !important;
     border: 1px solid #ffd700 !important;
     color: #ffd700 !important;
   }
+  .deposit-notice-content h4 {
+    color: #ffffff !important;
+  }
+  .container.container-box .col-md-8 .box-wrapper,
+  .container.container-box .col-xs-12 .box-wrapper {
+    background: rgba(26, 26, 26, 0.842) !important;
+    border: 1px solid #ffd700 !important;
+    color: #ffd700 !important;
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+  }
+  .col-md-8 .box-wrapper .info-box--001,
+  .col-xs-12 .box-wrapper .info-box--001 {
+    background: linear-gradient(180deg, #fff200, #ffb300) !important;
+    border: 1px solid #ffffff !important;
+    color: #000000 !important;
+  }
+  .col-md-8 .table.info-box--001 .lbl,
+  .col-xs-12 .table.info-box--001 .lbl {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+  }
+  #btnToggleSideNav i,
+  #btnToggleSideNav i::before,
+  #btnToggleRSideNav .icon-user-o,
+  #btnToggleRSideNav .icon-user-o::before {
+    color: #000000 !important;
+  }
+  .header-wrapper .flex-right .flex-row .button.icon.circle {
+    color: #000000 !important;
+  }
+  .floats-right .fc .fc-left,
+  .floats-left .fc .fc-right {
+    background: linear-gradient(180deg, #fff200, #ffb300) !important;
+    border: 1px solid #ffffff !important;
+    color: #000000 !important;
+  }
   .floats-left .fc .fc-left, .floats-right .fc .fc-right {
-    background: linear-gradient(180deg, #132a8a 0%, #07145a 55%, #020519 100%) !important;
+    background: #1a1a1a !important;
   }
   .floats-left .fd-qr {
-    background: linear-gradient(180deg, #132a8a 0%, #07145a 55%, #020519 100%) !important;
-    border: 1px solid #ffd700 !important;
+    background: linear-gradient(180deg, #fff200, #ffb300) !important;
+    border: 1px solid #ffffff !important;
   }
   .floats-left .fc .fc-left a,
   .floats-left .fc .fc-left span {
     color: #ffd700 !important;
   }
-  .swal2-popup {
+  .footer-funds .icon-transfer {
+    background: linear-gradient(1turn, #7f6426, #fbf59f 50.13%, #8a7132) !important;
+    border: 2px solid #ffd700 !important;
+    color: #000000 !important;
+  }
+  .footer-funds + #fundshover_menu,
+  #fundshover_menu {
+    background: linear-gradient(1turn, #7f6426, #fbf59f 50.13%, #8a7132) !important;
+    border: 2px solid #ffd700 !important;
+    color: #000000 !important;
+    bottom: 88px !important;
+  }
+  #fundshover_menu li {
+    border-right: 2px solid rgba(0, 0, 0, 0.45) !important;
+  }
+  #fundshover_menu li:last-child {
+    border-right: none !important;
+  }
+  .last-trax-giga {
+  background: #7a7144 !important;
+  }
+  .last-trax-giga .last-trax-triangle,
+  .last-trax-giga .last-trax-triangle::before,
+  .last-trax-giga .last-trax-triangle::after {
+    background: #c5b56a !important;
+    background-color: #c5b56a !important;
+  }
+  .sub-games .scroll-wrapper .row.slider-content {
+    background: linear-gradient(180deg, #3a3a3a, #1a1a1a) !important;
+    color: #ffd700 !important;
+  }
+  .scroll-wrapper .left #left-button,
+  .scroll-wrapper .right #right-button,
+  .scroll-wrapper #left-button,
+  .scroll-wrapper #right-button {
+    background: linear-gradient(1turn, #7f6426, #fbf59f 50.13%, #8a7132) !important;
+  }
+  .game-title,
+  h5.game-title {
+    color: #ffffff !important;
+  }
+  .bal-box.swiper-slide {
+    background: linear-gradient(180deg, #3a3a3a, #1a1a1a) !important;
+    border: 1px solid #ffd700 !important;
+    color: #ffd700 !important;
+  }
+  #gamelinksModal-1 .md-body {
     background: 
-    linear-gradient(180deg, #132a8a 0%, #07145a 55%, #020519 100%) !important;
+      linear-gradient(180deg, #3a3a3a, #1a1a1a) !important;
     border: 1px solid #ffd700 !important;
   }
-  .swal2-html-container {
+  #gamelinksModal-1 .pola-title {
     color: #ffd84d !important;
   }
-  .swal2-html-container .pola-title {
+  .swal2-popup {
+    background: 
+      linear-gradient(180deg, #3a3a3a, #1a1a1a) !important;
+    border: 1px solid #ffd700 !important;
+  }
+  .swal2-content {
     color: #ffd84d !important;
   }
-  .swal2-html-container .pola-table {
+  .swal2-content .pola-title {
+    color: #ffd84d !important;
+  }
+  .swal2-content .pola-table {
     border-color: #ffd84d !important;
   }
   .swal2-actions .swal2-confirm {
-    background: linear-gradient(180deg, #ffe600, #FFBF00) !important;
+    background: linear-gradient(180deg, #fff200, #ffb300) !important;
     border: 1px solid #ffffff !important;
-    color: #07145a !important;
+    color: #000000 !important;
     font-weight: bold;
     position: relative;
     overflow: hidden;
   }
   .swal2-actions .swal2-cancel {
-    background: linear-gradient(180deg, #132a8a 0%, #07145a 55%, #020519 100%) !important;
+    background: linear-gradient(180deg, #3a3a3a, #1a1a1a) !important;
     border: 1px solid #d4af37 !important;
     color: #ffd700 !important;
     font-weight: bold;
   }
-.kotaksaya {
-    border: 1px solid #ffffff;
-    background-color:#020164;
-    border-radius: 15px;
-    box-shadow: 4px 1px 9px 3px rgba(61, 211, 214, 0.3);
-    Padding : 20px;
-    text-align: justify;
-    color: white;
-    box-shadow: -2px 2px 9px 10px rgba(214, 213, 209, 0.1);
+  .swal2-success .swal2-success-ring {
+    border-color: #07c500 !important;
+  }
+  .swal2-success-line-tip,
+  .swal2-success-line-long {
+    background-color: #07c500 !important;
+  }
+  h2#swal2-title.swal2-title {
+   color: #ffd84d !important; 
+  }
+
+body.desktop {
+  background-image: url("https://files.sitestatic.net/CustomFiles/202604252119080000009aedfe920b__MAXWIN89__1920x1080.webp") !important;
+  background-size: cover !important;
+  background-position: center top !important;
+  background-repeat: no-repeat !important;
+  background-attachment: fixed !important;
 }
-.menu-bottom .footericon-single a {
-    font-weight: bold;
+.header-wrapper {
+  background-color: #00000000 !important;
 }
-.scroll-wrapper[_home] .btn-box div {
-    font-weight: bold;
+
+body.desktop .app-wrapper.container {
+  border-left: 4px solid #000000!important;
+  border-right: 4px solid #000000!important;
+  border-bottom: 4px solid #000000!important;
+  box-shadow:
+    -12px 0 28px rgba(0, 0, 0, 0.85),
+    12px 0 28px rgba(0, 0, 0, 0.85),
+    0 10px 28px rgba(0, 0, 0, 0.75) !important;
 }
-.btn-tertiery {
-    font-weight: bold !important;
-    border-radius: 5px !important;
+
+body.desktop .carousel-fixed-height {
+  border: none !important;
+  box-shadow:
+    0 18px 35px rgba(0,0,0,.95),
+    0 8px 18px rgba(255,215,0,.25) !important;
+  position: relative !important;
+  z-index: 2 !important;
 }
-.btn-accent {
-    font-weight: bold !important;
-    border-radius: 5px !important;
+.jp-provider-div {
+  background-color: #000000b4 !important; 
 }
-.title {
-    font-weight: bold !important;
+.desktop .g-slider-wrapper .game-box,
+.desktop .g-slider-wrapper div.game-box.round {
+  background: #00000000 !important;
+  border: 2px solid #ffd700 !important;
+  border-radius: 50% !important;
 }
-.side-nav-items>.nav-item>a {
-    font-weight: bold !important;
+.hot-games-heading {
+  font-family: 'Sekuya' !important;
+  text-transform: uppercase !important;
+  font-size: 20px !important;
+  letter-spacing: 0 !important;
+  color: #ffd700  !important;
+  -webkit-text-fill-color: #ffd700 !important;
+  text-shadow: none !important;
 }
-.btn-primary {
-    font-weight: bold !important;
-    border-radius: 5px !important;
+.desktop .site-footer {
+ background-color: #000000a4 !important; 
 }
-.btn-secondary {
-    font-weight: bold !important;
-    border-radius: 5px !important;
+.register.container .row {
+  background: #00000000 !important;
 }
-.promotion-page .g_category-nav .nav-item .navlink {
-    font-weight: bold !important;
+.container.sub-games,
+.container.promo-view,
+.container.pt-4 {
+  background: #000000b0 !important;
+  box-shadow:
+    -2px 0 2px rgba(0,0,0,.75),
+     2px 0 2px rgba(0,0,0,.75),
+     0 4px 2px rgba(0,0,0,.75) !important;
 }
-.main.nav-wrapper .nav-item .navlink {
-    font-weight: bold;
+.games-slider-menu a.btn-box {
+  background: linear-gradient(180deg, #3a3a3a, #1a1a1a) !important;
 }
-.main.nav-wrapper .main-nav a.active, .main.nav-wrapper .main-nav a:hover, .main.nav-wrapper .nav-item:hover .navlink {
-    border-radius: 10px;
+body.desktop .container-wrapper.acc .container-box .row,
+body.desktop .content.my01 > .container,
+.desktop .container.container-box.info-view,
+.desktop .container.container-box.noSidePadding {
+ background-color: #000000d5 !important; 
 }
-.bottom-to-top {
-    font-weight: bold;
+.desktop .info-nav.nav-icon .row.no-gutters a {
+  color: #ffffff !important;
 }
-.hot-games .game-item .game-title {
-    background-color: #000870 !important;
-    border-radius: 10px;
-}
-.hot-games .game-item {
-    background-color: #00064e !important;
-    border-radius: 10px;
-}
-.register .promo-box {
-    border-radius: 10px;
-}
-.register .p-title {
-    border-radius: 10px !important;
-}
-.register span.skew>span {
-    font-weight: bold !important;
-}
-.fs-md {
-    font-weight: bold !important;
-}
-.fancybox-close-small {
-   background: #ff0000 !important;
-   color: #ffffff !important;
-   border-radius: 15px !important;
-}
-.main.nav-wrapper .nav-item .navlink {
-    border-radius: 10px !important;
-}
-.nav-item {
-    border-radius: 10px !important;
-}
-.main.nav-wrapper .nav-item-content .auto-box>.a-disabledLink, .main.nav-wrapper .nav-item-content .auto-box>a {
-    font-weight: bold !important;
-}
-.top-bar .inner-header {
-    border: #ffffff;
-}
-.floats-left .fc .fc-right, .floats-right .fc .fc-left {
-    border-radius: 5px !important;
-}
-.md-show.fade-in-scale .md-content {
-    border-radius: 10px !important;
-}
-.scroll-wrapper[_home] .next-btn, .scroll-wrapper[_home] .prev-btn {
-    border-radius: 5px !important;
-    background: linear-gradient(#07006e, #01002a) !important;
-}
-.scroll-wrapper[_home] .slider-content {
-   background: linear-gradient(#01002a, #07006e) !important;
-}
-.menu-bottom .navbar-inverse {
-   background: linear-gradient(#01002a, #07006e) !important;
-}
-.top-bar .inner-header {
-   background: linear-gradient(#01002a, #07006e) !important;
-}
-.ann-wrapper {
-   background: linear-gradient(#01002a, #07006e) !important;
-   border-radius: 15px !important;
-}
-.floats-left .fc .fc-right, .floats-right .fc .fc-left {
-   background-color: #020081 !important;
-}
-.jackpot .text-content {
-   padding-top: 6px  !important;
-}
-.container.container-box .col-md-8 .box-wrapper,
-  .container.container-box .col-xs-12 .box-wrapper {
-    background: rgba(26, 26, 26, 0.842) !important;
-    border: 1px solid #07006e !important;
-    color: #ffd700 !important;
-    padding-left: 8px !important;
-    padding-right: 8px !important;
-  } 
+
 /*
 ==========================
   MOBILE
 ==========================
 */
-body.mobile .side-nav-items,
-body.mobile .wallet-bal .row.text-left,
-body.mobile .nav-item-content span.circle {
- background: linear-gradient(1turn, #03112f, #3aa7ff 50.13%, #082b73) !important;
+body.mobile .top-bar .inner-header {
+  background: linear-gradient(1turn, #7f6426, #fbf59f 50.13%, #8a7132) !important;
 }
-body.mobile .nav-item-content.open {
-  background: linear-gradient(180deg, #132a8a 0%, #07145a 55%, #020519 100%) !important;
+body.mobile .top-bar .inner-header .logo img,
+body.mobile .top-bar .inner-header img.img-fluid {
+  filter:
+    drop-shadow(0 3px 3px #000)
+    drop-shadow(0 0 8px rgba(255, 215, 0, .75)) !important;
+  transform: translateY(-2px) !important;
+}
+body.mobile #apk-down-bar,
+body.mobile .apk-down-bar {
+  display: none !important;
 }
 body.mobile {
-  background-image: url("https://imgstorage.site/view/berlin/backgroundidr89.png") !important;
+  background-image: url("https://files.sitestatic.net/CustomFiles/20260425212400000000211af3287c__MAXWIN89__533x2065.webp") !important;
   background-size: cover !important;
 }
 body.mobile .ann-wrapper {
@@ -320,8 +395,15 @@ body.mobile .deposit-withdraw-section,
 body.mobile .footer-content.clearfix {
  background-color: rgba(0, 0, 0, 0) !important; 
 }
-body.mobile .g-slider-wrapper {
+body.mobile .g-slider-wrapper .game-box,
+body.mobile .g-slider-wrapper div.game-box.round {
   background: #00000000 !important;
+  border: 2px solid #ffd700 !important;
+  border-radius: 50% !important;
+}
+body.mobile .container.container-box.info-view,
+body.mobile .container.pt-1.games-category {
+  background: #000000ad  !important;
 }
 body.mobile .info-nav.nav-icon .row.no-gutters a {
   color: #ffffff !important;
@@ -338,46 +420,43 @@ body.mobile .container.my_promo_view .container-box.noSidePadding,
 body.mobile .mdc-tab-scroller__scroll-content {
   background: #1a1a1acb !important;
 }
-body.mobile #apk-down-bar,
-body.mobile .apk-down-bar {
-  display: none !important;
+body.mobile .side-nav-items,
+body.mobile .wallet-bal .row.text-left,
+body.mobile .nav-item-content span.circle {
+  background: linear-gradient(1turn, #7f6426, #fbf59f 50.13%, #8a7132) !important;
 }
-body.mobile .container.container-box.info-view {
-  background: #000000ad  !important;
+body.mobile .nav-item-content.open {
+  background: linear-gradient(1turn, #525252, #9c9c9c 50.13%, #525252) !important;
 }
-.mobile .security_info {
-    background-color: #00000000 !important;
-    }
-#login-modal--layout .md-content,
-#r-side-bar .side-bar-content.container {
-background: linear-gradient(1turn, #03112f, #1e649e 50.13%, #082b73) !important;
+body.mobile .nav-content .submenu li a {
+  color : #000000 !important;
+  font-weight: 700 !important;
 }
-.menu-bottom .horizontal-hover,
-.menu-bottom .footericon-single a.footer-funds i {
-background: linear-gradient(1turn, #03112f, #3aa7ff 50.13%, #082b73) !important;
-border: 2px solid #ffd700 !important;
+body.mobile .wallet-bal .btn-refresh-wallet.pull-right {
+  background: linear-gradient(180deg, #d8cd00, #ffb300) !important;
 }
-.btn.btn-clear {
-color: #ffffff
+body.mobile .carousel-indicators li {
+  background: #00000000!important;
+}
+.icon-user-o:before,
+.icon-bars:before {
+  color : #ffffff !important;
 }
 /*
 ==========================
-  HAMBURG
+  STYLE MENU HAMBURGER
 ==========================
 */
 
-@import url("https://fonts.googleapis.com/css?family=Raleway:900&display=swap");
-
   :root {
     --accent-color: #1130a5;
-    --base-color: #0e1eaa;
+    --base-color: #ffd000;
   }
-
   .hamburg,
   .attention {
-    background: linear-gradient(180deg, #132a8a 0%, #07145a 55%, #020519 100%) !important;
-    border: 1px solid #ffd700 !important;
-    color: #ffd700 !important;
+    background: linear-gradient(180deg, #fff200, #ffb300) !important;
+    border: 1px solid #ffffff !important;
+    color: #000000 !important;
     position: relative;
     overflow: hidden;
   }
@@ -480,7 +559,7 @@ color: #ffffff
     display: flex;
     width: 55px;
     height: 55px;
-    border: solid 2px var(--base-color);
+    border: 2px solid #FFD700;
     border-radius: 10px;
     justify-content: center;
     align-items: center;
@@ -492,7 +571,7 @@ color: #ffffff
   .bar3 {
     width: 80%;
     height: 5px;
-    background-color: #ffd700;
+    background-color: #000000;
     margin: 6px auto;
     transition: 0.4s;
     position: relative;
@@ -617,11 +696,11 @@ color: #ffffff
   }
 
   .whore {
-    animation: flicker 0.6s infinite;
+    animation: flicker 1.2s infinite;
+  }
 
-    &:hover {
-      animation-duration: 10s;
-    }
+  .whore:hover {
+    animation-duration: 10s;
   }
 
   @keyframes flicker {
@@ -640,7 +719,7 @@ color: #ffffff
 
   @media screen and (max-width: 600px) {
     .ard-sosmed {
-      bottom: 110px;
+      bottom: 130px;
       left: 5px;
     }
   }
@@ -659,7 +738,8 @@ color: #ffffff
       display: none;
     }
   }
-  /*
+
+/*
 ==========================
   APK & LINK ALT
 ==========================
@@ -670,19 +750,21 @@ color: #ffffff
   padding: 0;
 }
 
+body {
+  background: #0b0b0b;
+  font-family: Arial, sans-serif;
+}
+
 /* BOX UTAMA */
 .maxwin-box {
   width: 100%;
   max-width: 100%;
   margin: auto;
-  background: linear-gradient(180deg, #06185f 0%, #031044 48%, #01031a 100%);
-  border: 2px solid #ffd84a;
+  background: linear-gradient(180deg, #3a3a3a, #1a1a1a);
+  border: 2px solid #f0c400;
   border-radius: 14px;
   padding: 8px;
-  box-shadow:
-    0 0 10px rgba(31, 167, 255, 0.75),
-    0 0 24px rgba(0, 86, 255, 0.45),
-    inset 0 0 12px rgba(255, 224, 60, 0.14);
+  box-shadow: 0 0 18px rgba(255, 208, 0, 0.2);
   display: flex;
   gap: 8px;
   align-items: stretch;
@@ -716,7 +798,7 @@ color: #ffffff
 
 .right-panel {
   width: 48%;
-  border: 2px solid #07006e;
+  border: 2px solid #f0c400;
   border-radius: 12px;
   padding: 2px;
   background: #000;
@@ -757,9 +839,8 @@ color: #ffffff
 .main-link {
   display: block;
   width: 100%;
-  background: linear-gradient(180deg, #07006e, #07006e);
-  color: #ffffff;
-  border: 1px solid #ffd700 !important;
+  background: linear-gradient(180deg, #fff200, #d8a400);
+  color: #111;
   font-weight: 700;
   text-align: center;
   padding: 5px 4px;
@@ -801,9 +882,9 @@ select {
 }
 
 .copy-btn {
-  background: linear-gradient(180deg, #07006e, #07006e);
-  color: #ffffff;
-  border: 1px solid #ffd700 !important;
+  background: linear-gradient(180deg, #fff200, #d8a400);
+  color: #111;
+  border: none;
   padding: 5px 10px;
   font-size: 9px;
   font-weight: 700;
@@ -864,9 +945,8 @@ select {
 
 .search-btn {
   display: inline-block;
-  background: linear-gradient(180deg, #07006e, #07006e);
-  color: #ffffff;
-  border: 1px solid #ffd700 !important;
+  background: linear-gradient(180deg, #fff200, #d8a400);
+  color: #111;
   font-size: 9px;
   font-weight: 700;
   width: 100%;
@@ -879,6 +959,5 @@ select {
 .search-wrap {
   margin-top: 4px;
   padding-top: 4px;
-  border-top: 1px solid rgba(7,0,110);
+  border-top: 1px solid rgba(255, 208, 0, 0.5);
 }
-</style>
