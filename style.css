@@ -4,6 +4,166 @@
 ==========================
 */
 <style>
+.menu-bottom .footericon-single a {
+    font-weight: bold !important;
+  }
+  .scroll-wrapper[_home] .btn-box div {
+    font-weight: bold;
+  }
+  .btn-tertiery,
+  .btn-secondary {
+    font-weight: bold !important;
+    border-radius: 5px !important;
+    background: linear-gradient(180deg, #132a8a 0%, #07145a 55%, #020519 100%) !important;
+    border: 1px solid #fff200 !important;
+    color: #fff200 !important;
+  }
+  .btn-accent,
+  .btn-primary {
+    font-weight: bold !important;
+    border-radius: 5px !important;
+    background: linear-gradient(180deg, #ffe600, #FFBF00) !important;
+    border-color: #ffffff !important;
+    color: #132a8a !important;
+    position: relative;
+    overflow: hidden;
+  }
+  .btn-accent::before,
+  .btn-primary::before,
+  .swal2-actions .swal2-confirm::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -75%;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(
+      120deg,
+      transparent,
+      rgba(255,255,255,0.7),
+      transparent
+    );
+    transform: skewX(-25deg);
+    animation: shineMove 2.5s infinite;
+  }
+
+  @keyframes shineMove {
+    0% { left: -75%; }
+    100% { left: 125%; }
+  }
+  .title {
+    font-weight: bold !important;
+  }
+  .side-nav-items > .nav-item > a {
+    font-weight: bold !important;
+  }
+  .promotion-page .g_category-nav .nav-item .navlink {
+    font-weight: bold !important;
+  }
+  .main.nav-wrapper .nav-item .navlink {
+    border-radius: 10px !important;
+    font-weight: bold;
+  }
+  .main.nav-wrapper .main-nav a.active,
+  .main.nav-wrapper .main-nav a:hover,
+  .main.nav-wrapper .nav-item:hover .navlink {
+    border-radius: 10px;
+  }
+  .bottom-to-top {
+    font-weight: bold;
+  }
+  .register .promo-box {
+    border-radius: 10px;
+  }
+  .register .p-title {
+    border-radius: 10px !important;
+  }
+  .register span.skew > span {
+    font-weight: bold !important;
+  }
+  .fs-md {
+    font-weight: bold !important;
+  }
+  .fancybox-close-small {
+    background: #ff0000 !important;
+    color: #ffffff !important;
+    border-radius: 15px !important;
+  }
+  .nav-item {
+    border-radius: 10px !important;
+  }
+  .main.nav-wrapper .nav-item-content .auto-box > .a-disabledLink,
+  .main.nav-wrapper .nav-item-content .auto-box > a {
+    font-weight: bold !important;
+  }
+  .row {
+    padding-top: 5px !important;
+  }
+  .register .promo-box {
+    background: linear-gradient(180deg, #132a8a, #020519) !important;
+    border: 1px solid #ffd700 !important;
+  }
+  .register-form .submit-box {
+    background: linear-gradient(180deg, #132a8a 0%, #07145a 55%, #020519 100%) !important;
+    color: #ffd700 !important;
+    border: 1px solid #ffd700 !important;
+    border-radius: 10px !important;
+  }
+  .register .promo-box h4 {
+    color: #ffffff !important;
+    font-weight: 900;
+  }
+  .register .promo-box h1, .register .promo-box ul, .register .promo-box li, .register .promo-box div, .register .promo-box span {
+    color: #ffd700 !important;
+  }
+  .register-form .submit-box a {
+    color: #fd2c2c !important;
+  }
+  .floats-right .fc .fc-left,
+  .floats-left .fc .fc-right {
+    background: linear-gradient(180deg, #132a8a 0%, #07145a 55%, #020519 100%) !important;
+    border: 1px solid #ffd700 !important;
+    color: #ffd700 !important;
+  }
+  .floats-left .fc .fc-left, .floats-right .fc .fc-right {
+    background: linear-gradient(180deg, #132a8a 0%, #07145a 55%, #020519 100%) !important;
+  }
+  .floats-left .fd-qr {
+    background: linear-gradient(180deg, #132a8a 0%, #07145a 55%, #020519 100%) !important;
+    border: 1px solid #ffd700 !important;
+  }
+  .floats-left .fc .fc-left a,
+  .floats-left .fc .fc-left span {
+    color: #ffd700 !important;
+  }
+  .swal2-popup {
+    background: 
+    linear-gradient(180deg, #132a8a 0%, #07145a 55%, #020519 100%) !important;
+    border: 1px solid #ffd700 !important;
+  }
+  .swal2-html-container {
+    color: #ffd84d !important;
+  }
+  .swal2-html-container .pola-title {
+    color: #ffd84d !important;
+  }
+  .swal2-html-container .pola-table {
+    border-color: #ffd84d !important;
+  }
+  .swal2-actions .swal2-confirm {
+    background: linear-gradient(180deg, #ffe600, #FFBF00) !important;
+    border: 1px solid #ffffff !important;
+    color: #07145a !important;
+    font-weight: bold;
+    position: relative;
+    overflow: hidden;
+  }
+  .swal2-actions .swal2-cancel {
+    background: linear-gradient(180deg, #132a8a 0%, #07145a 55%, #020519 100%) !important;
+    border: 1px solid #d4af37 !important;
+    color: #ffd700 !important;
+    font-weight: bold;
+  }
 .kotaksaya {
     border: 1px solid #ffffff;
     background-color:#020164;
@@ -127,12 +287,20 @@
     color: #ffd700 !important;
     padding-left: 8px !important;
     padding-right: 8px !important;
-  }
+  } 
 /*
 ==========================
   MOBILE
 ==========================
 */
+body.mobile .side-nav-items,
+body.mobile .wallet-bal .row.text-left,
+body.mobile .nav-item-content span.circle {
+ background: linear-gradient(1turn, #03112f, #3aa7ff 50.13%, #082b73) !important;
+}
+body.mobile .nav-item-content.open {
+  background: linear-gradient(180deg, #132a8a 0%, #07145a 55%, #020519 100%) !important;
+}
 body.mobile {
   background-image: url("https://imgstorage.site/view/berlin/backgroundidr89.png") !important;
   background-size: cover !important;
@@ -180,6 +348,9 @@ body.mobile .container.container-box.info-view {
 .mobile .security_info {
     background-color: #00000000 !important;
     }
+body.mobile .side-bar-content container {
+background: linear-gradient(1turn, #03112f, #3aa7ff 50.13%, #082b73) !important;
+}
 /*
 ==========================
   HAMBURG
