@@ -429,6 +429,16 @@ body.mobile {
   background-image: url("https://imgstorage.site/view/berlin/backgroundidr89.png") !important;
   background-size: cover !important;
 }
+body.mobile .ann-wrapper {
+  background-color: #0000009c !important; 
+}
+body.mobile .deposit-withdraw-div.black-bg {
+  background-color: #00000000 !important; 
+}
+body.mobile .jp-provider-div {
+ background-color: rgba(0, 0, 0, 0.336) !important; 
+}
+
   /*
 ==========================
   APK & LINK ALT
