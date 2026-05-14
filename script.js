@@ -49,17 +49,12 @@ style.textContent = `
     z-index: 99;
     font-family: Montserrat, Arial, sans-serif;
     border-radius: 20px;
-    background:
-      radial-gradient(circle at 15% 10%, rgba(80, 170, 255, 0.22), transparent 24%),
-      radial-gradient(circle at 85% 18%, rgba(0, 225, 255, 0.14), transparent 22%),
-      linear-gradient(145deg, #07104a 0%, #0a1a66 28%, #02081f 100%);
-    border: 1px solid #35a2ff;
+    background: linear-gradient(180deg, #06185f 0%, #031044 48%, #01031a 100%);
+    border: 2px solid #ffd84a;
     box-shadow:
-      0 0 0 1px rgba(255,255,255,.04) inset,
-      0 0 0 2px rgba(53, 162, 255, 0.12),
-      0 12px 34px rgba(0,0,0,.58),
-      0 0 18px rgba(53, 162, 255, 0.35),
-      0 0 32px rgba(0, 110, 255, 0.28);
+    0 0 10px rgba(31, 167, 255, 0.75),
+    0 0 24px rgba(0, 86, 255, 0.45),
+    inset 0 0 12px rgba(255, 224, 60, 0.14);
   }
 
       .server-selector-ui::before {
