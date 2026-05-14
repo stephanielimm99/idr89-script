@@ -348,7 +348,7 @@ body.mobile .container.container-box.info-view {
 .mobile .security_info {
     background-color: #00000000 !important;
     }
-#login-modal--layout.modal-wrapper.nifty-modal.fade-in-scale.md-show,    
+.md-modal .md-body,    
 #r-side-bar .side-bar-content.container {
 background: linear-gradient(1turn, #03112f, #1e649e 50.13%, #082b73) !important;
 }
