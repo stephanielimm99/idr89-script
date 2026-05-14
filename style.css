@@ -348,7 +348,7 @@ body.mobile .container.container-box.info-view {
 .mobile .security_info {
     background-color: #00000000 !important;
     }
-body.mobile .side-bar-content container {
+.side-bar-content container {
 background: linear-gradient(1turn, #03112f, #3aa7ff 50.13%, #082b73) !important;
 }
 /*
