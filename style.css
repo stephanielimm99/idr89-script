@@ -177,6 +177,9 @@ body.mobile .apk-down-bar {
 body.mobile .container.container-box.info-view {
   background: #000000ad  !important;
 }
+.mobile .security_info {
+    background-color: #0000009c !important;
+    }
 /*
 ==========================
   HAMBURG
