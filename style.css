@@ -133,17 +133,44 @@
     --base-color: #0e1eaa;
   }
 
+  .hamburg,
+  .attention {
+    background: linear-gradient(180deg, #132a8a 0%, #07145a 55%, #020519 100%) !important;
+    border: 1px solid #ffd700 !important;
+    color: #ffd700 !important;
+    position: relative;
+    overflow: hidden;
+  }
   .hamburg {
     position: absolute;
-    width: 40px;
+    width: 55px;
     height: auto;
-    padding: 0.6rem;
+    padding: 0.45rem 0.8rem;
     background-color: var(--base-color);
     border-radius: 10px;
     z-index: 80;
-    box-shadow: 0px 0px 12px 1px rgba(233 228 222 / 70%);
+    box-shadow: 0px 0px 12px 1px rgba(199, 194, 127, 0.7);  
   }
-
+  .hamburg::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -75%;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(
+      120deg,
+      transparent,
+      rgba(255,255,255,0.7),
+      transparent
+    );
+    transform: skewX(-25deg);
+    animation: shineMove 2.5s infinite;
+  }
+  @keyframes shineMove {
+    0% { left: -75%; }
+    100% { left: 125%; }
+  }
   .ard-sosmed {
     display: block;
     cursor: pointer;
