@@ -186,6 +186,32 @@ body.desktop .app-wrapper.container {
     0 10px 28px rgba(0, 0, 0, 0.75) !important;
 }
 
+.jp-provider-div {
+  background-color: #000000b4 !important; 
+}
+.desktop .site-footer {
+ background-color: #000000a4 !important; 
+}
+.register.container .row {
+  background: #00000000 !important;
+}
+.container.sub-games,
+.container.promo-view,
+.container.pt-4 {
+  background: #000000b0 !important;
+  box-shadow:
+    -2px 0 2px rgba(0,0,0,.75),
+     2px 0 2px rgba(0,0,0,.75),
+     0 4px 2px rgba(0,0,0,.75) !important;
+}
+
+body.desktop .container-wrapper.acc .container-box .row,
+body.desktop .content.my01 > .container,
+.desktop .container.container-box.info-view,
+.desktop .container.container-box.noSidePadding {
+ background-color: #000000d5 !important; 
+}
+
 .kotaksaya {
     border: 1px solid #ffffff;
     background-color:#020164;
