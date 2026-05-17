@@ -1166,7 +1166,7 @@ function createApkBox() {
         </div>
 
         <button class="main-link" type="button" id="copyMainLinkBtn">
-          altwin.link/idr89
+          tinyurl.com/link-idr89
         </button>
 
         <div class="label">Pilih Link Alternatif:</div>
@@ -1219,7 +1219,7 @@ function createApkBox() {
 
   if (copyMainLinkBtn) {
     copyMainLinkBtn.addEventListener("click", function () {
-      const value = "https://altwin.link/idr89";
+      const value = "https://tinyurl.com/link-idr89";
 
       navigator.clipboard.writeText(value)
         .then(() => {
