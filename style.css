@@ -336,6 +336,32 @@ body.desktop .content.my01 > .container,
     padding-left: 8px !important;
     padding-right: 8px !important;
   } 
+.home-trans-innerwrapper {
+  float:left;
+  width:100%;
+  background:linear-gradient(180deg, #ffe600, #FFBF00) !important;
+  border-radius:80px;
+  padding:10px 0;
+  margin:15px 0;
+}
+.home-trans-innerwrapper .user_detail .name {
+  font-size:16px;
+  color:#132a8a !important;
+  text-transform:capitalize;
+  margin-bottom:3px;
+}
+.home-trans-innerwrapper .user_detail .details {
+  font-size:12px;
+  margin-bottom:0;
+  color:#132a8a !important;
+}
+.home-trans-innerwrapper .amount {
+  font-size:14px;
+  color:#132a8a !important;
+  margin:12px 0;
+  text-align:center;
+  font-weight:600;
+}
 /* =========================
    CUSTOM CURSOR
 ========================= */
