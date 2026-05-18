@@ -362,10 +362,6 @@ body.desktop .content.my01 > .container,
   text-align:center;
   font-weight:600;
 }
-.home-trans-title {
-  font-size:25px;
-  background:linear-gradient(180deg, #ffe600, #FFBF00) !important;
-}
 /* =========================
    CUSTOM CURSOR
 ========================= */
