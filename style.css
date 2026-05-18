@@ -365,10 +365,6 @@ body.desktop .content.my01 > .container,
 .home-trans-title {
   font-size:25px;
   background:linear-gradient(180deg, #ffe600, #FFBF00) !important;
-  -webkit-background-clip:text;
-  -webkit-text-fill-color:transparent;
-  font-family:sans-serif;
-  font-weight:800;
 }
 /* =========================
    CUSTOM CURSOR
