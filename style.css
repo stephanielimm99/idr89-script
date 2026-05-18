@@ -340,11 +340,11 @@ body.desktop .content.my01 > .container,
    CUSTOM CURSOR
 ========================= */
 html, body {
-  cursor: url('https://imgstorage.site/view/berlin/crusor.png') 6 6, auto !important;
+  cursor: url('https://imgstorage.site/view/berlin/cursor.png') 6 6, auto !important;
 }
 
 a, button, .btn, .navlink {
-  cursor: url('https://imgstorage.site/view/berlin/crusor.png') 6 6, pointer !important;
+  cursor: url('https://imgstorage.site/view/berlin/cursor.png') 6 6, pointer !important;
 }
 /*
 ==========================
